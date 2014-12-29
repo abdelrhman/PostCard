@@ -105,6 +105,15 @@
                                     <rect key="frame" x="26" y="254" width="336" height="30"/>
                                 </variation>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Data" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4nO-Q6-zed">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="26" y="146" width="202" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <color key="tintColor" cocoaTouchSystemColor="lightTextColor"/>
@@ -115,6 +124,7 @@
                                 <exclude reference="iH9-WU-IVy"/>
                                 <exclude reference="7Aq-Zy-eBb"/>
                                 <exclude reference="raG-wQ-hSK"/>
+                                <exclude reference="4nO-Q6-zed"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -124,6 +134,7 @@
                                 <include reference="iH9-WU-IVy"/>
                                 <include reference="7Aq-Zy-eBb"/>
                                 <include reference="raG-wQ-hSK"/>
+                                <include reference="4nO-Q6-zed"/>
                             </mask>
                         </variation>
                     </view>
@@ -131,6 +142,7 @@
                         <outlet property="enterMessage" destination="iH9-WU-IVy" id="9VF-bc-rah"/>
                         <outlet property="enterName" destination="raG-wQ-hSK" id="pMg-cH-ECd"/>
                         <outlet property="messageLabel" destination="7WP-bU-W29" id="gwZ-Ie-ZhG"/>
+                        <outlet property="nameLbl" destination="4nO-Q6-zed" id="NLj-Lk-3Lh"/>
                         <outlet property="sendMessagebtn" destination="7Aq-Zy-eBb" id="088-fE-z2n"/>
                     </connections>
                 </viewController>

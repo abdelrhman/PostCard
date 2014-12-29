@@ -17,6 +17,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var sendMessagebtn: UIButton!
   
+    @IBOutlet weak var nameLbl: UILabel!
     
     
     override func viewDidLoad() {
@@ -39,6 +40,11 @@ class ViewController: UIViewController {
         enterMessage.resignFirstResponder()
         
         sendMessagebtn.setTitle("Mail sent", forState: UIControlState.Normal)
+        
+        nameLbl.text = enterName.text
+        nameLbl.textColor = UIColor.blueColor()
+        
+        enterName.hidden = true
         
         
         
