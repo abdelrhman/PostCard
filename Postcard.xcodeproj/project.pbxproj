@@ -13,6 +13,8 @@
 		0CB9AFE61A2FB820000A6864 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB9AFE51A2FB820000A6864 /* Images.xcassets */; };
 		0CB9AFE91A2FB820000A6864 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CB9AFE71A2FB820000A6864 /* LaunchScreen.xib */; };
 		0CB9AFF51A2FB820000A6864 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB9AFF41A2FB820000A6864 /* PostcardTests.swift */; };
+		0CB9B0001A2FC615000A6864 /* Bo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CB9AFFE1A2FC615000A6864 /* Bo.jpg */; };
+		0CB9B0011A2FC615000A6864 /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CB9AFFF1A2FC615000A6864 /* JRT.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		0CB9AFEE1A2FB820000A6864 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB9AFF31A2FB820000A6864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CB9AFF41A2FB820000A6864 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		0CB9AFFE1A2FC615000A6864 /* Bo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bo.jpg; sourceTree = "<group>"; };
+		0CB9AFFF1A2FC615000A6864 /* JRT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JRT.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		0CB9AFDC1A2FB820000A6864 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0CB9AFFE1A2FC615000A6864 /* Bo.jpg */,
+				0CB9AFFF1A2FC615000A6864 /* JRT.jpg */,
 				0CB9AFDD1A2FB820000A6864 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +200,8 @@
 			files = (
 				0CB9AFE41A2FB820000A6864 /* Main.storyboard in Resources */,
 				0CB9AFE91A2FB820000A6864 /* LaunchScreen.xib in Resources */,
+				0CB9B0011A2FC615000A6864 /* JRT.jpg in Resources */,
+				0CB9B0001A2FC615000A6864 /* Bo.jpg in Resources */,
 				0CB9AFE61A2FB820000A6864 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
